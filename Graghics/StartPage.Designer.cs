@@ -57,7 +57,6 @@
             // ColorModelsBtn
             // 
             this.ColorModelsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.ColorModelsBtn.Enabled = false;
             this.ColorModelsBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
             this.ColorModelsBtn.FlatAppearance.BorderSize = 0;
             this.ColorModelsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -128,7 +127,7 @@
             this.Controls.Add(this.BuildFractalBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "StartPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

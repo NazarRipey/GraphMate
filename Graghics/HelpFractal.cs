@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Graghics
 {
-    public partial class Help : Form
+    public partial class HelpFractals : Form
     {
-        public Help()
+        public HelpFractals()
         {
             InitializeComponent();
         }

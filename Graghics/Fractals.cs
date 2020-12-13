@@ -215,5 +215,11 @@ namespace Graghics
         {
             this.Close();
         }
+
+        private void getHelpBtn_Click(object sender, EventArgs e)
+        {
+            HelpFractals hf = new HelpFractals();
+            hf.ShowDialog();
+        }
     }
 }
