@@ -195,6 +195,7 @@
             this.pictureBox5.Location = new System.Drawing.Point(423, 1116);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(701, 525);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
             // 
@@ -203,7 +204,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(604, 1644);
+            this.label4.Location = new System.Drawing.Point(589, 1644);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(362, 23);
             this.label4.TabIndex = 13;
@@ -225,6 +226,7 @@
             this.pictureBox6.Location = new System.Drawing.Point(633, 2416);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(262, 127);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 15;
             this.pictureBox6.TabStop = false;
             // 
