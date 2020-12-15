@@ -53,6 +53,12 @@
       <DependentUpon>ColorForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ColorModelConvertor.cs" />
+    <Compile Include="HelpColorModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpColorModel.Designer.cs">
+      <DependentUpon>HelpColorModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="HelpFractal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ColorForm.resx">
       <DependentUpon>ColorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpColorModel.resx">
+      <DependentUpon>HelpColorModel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HelpFractal.resx">
       <DependentUpon>HelpFractal.cs</DependentUpon>

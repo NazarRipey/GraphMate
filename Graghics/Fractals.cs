@@ -221,5 +221,10 @@ namespace Graghics
             HelpFractals hf = new HelpFractals();
             hf.ShowDialog();
         }
+
+        private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        {
+
+        }
     }
 }
