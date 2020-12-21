@@ -8,14 +8,10 @@ namespace Graghics
     public partial class TriangleForm : Form
     {
         private Triangle triangle;
-        private double MX;
-        private double MY;
 
-        public TriangleForm(Triangle triangle, double maxX, double maxY)
+        public TriangleForm(Triangle triangle)
         {
             this.triangle = triangle;
-            MX = maxX;
-            MY = maxY;
 
             InitializeComponent();
         }
@@ -29,16 +25,7 @@ namespace Graghics
 
             if (float.TryParse(X, out x) && float.TryParse(Y, out y))
             {
-                if (Math.Abs(x) > MX || Math.Abs(y) > MY)
-                {
-                    MessageBox.Show($"For this price of the split Y and X must be double values " +
-                        $"from {-MX} to {MX} and {-MY} to {MY} in accordance");
-                    return PointF.Empty;
-                }
-                else
-                {
-                    return new PointF(x, y);
-                }
+                return new PointF(x, y);
             }
             else
             {

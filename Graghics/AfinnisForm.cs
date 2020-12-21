@@ -102,7 +102,7 @@ namespace Graghics
         {
             PointF[] pf = null;
             Triangle tempTriangle = new Triangle(pf);
-            TriangleForm triangleForm = new TriangleForm(tempTriangle, 20, 20);
+            TriangleForm triangleForm = new TriangleForm(tempTriangle);
             triangleForm.ShowDialog();
 
             if (tempTriangle.Points != null)

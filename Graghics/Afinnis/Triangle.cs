@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Windows;
 
 namespace Graghics.Afinnis
 {
@@ -65,13 +66,11 @@ namespace Graghics.Afinnis
 
         public static bool IsValid(PointF A, PointF B, PointF C)
         {
-            double a, b, c;
+            Vector a = new Vector(B.X - A.X, B.Y - A.Y);
+            Vector b = new Vector(C.X - B.X, C.Y - B.Y);
+            Vector c = new Vector(A.X - C.X, A.Y - C.Y);
 
-            a = A.GetLength();
-            b = B.GetLength();
-            c = C.GetLength();
-
-            return (a + b > c && a + c > b && b + c > a);
+            return (a.Length + b.Length > c.Length && a.Length + c.Length > b.Length && b.Length + c.Length > a.Length);
         }
     }
 }
