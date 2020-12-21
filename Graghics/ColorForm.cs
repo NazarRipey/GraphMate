@@ -57,7 +57,7 @@ namespace Graghics
                 Color color;
                 try
                 {
-                    color = bmp.GetPixel(e.X, e.Y);
+                    color = bmp2.GetPixel(e.X, e.Y);
                 }
                 catch (Exception)
                 {
@@ -131,10 +131,13 @@ namespace Graghics
                     hsv = ColorModelConvertor.ConvertToHSV(col);
                     if ((hsv.H >= 340 && hsv.H <= 360) || (hsv.H <= 20 && hsv.H >= 0))
                     {
-                        hsv.V = brightness;
-                        hsv.S = saturation;
+                        if (hsv.S >= 0.4 && hsv.V >= 0.4)
+                        {
+                            hsv.V = brightness;
+                            hsv.S = saturation;
 
-                        bmp2.SetPixel(i, j, ColorModelConvertor.ConvertToRGB(hsv));
+                            bmp2.SetPixel(i, j, ColorModelConvertor.ConvertToRGB(hsv));
+                        }
                     }
                 }
                 if (this.progressBar1.Value == bmp.Width)
