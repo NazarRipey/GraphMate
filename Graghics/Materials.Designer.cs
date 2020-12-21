@@ -201,7 +201,8 @@
             this.pictureBox5.Location = new System.Drawing.Point(276, 907);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(694, 493);
+            this.pictureBox5.Size = new System.Drawing.Size(701, 525);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
             // 
@@ -234,7 +235,8 @@
             this.pictureBox6.Location = new System.Drawing.Point(475, 2015);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(263, 125);
+            this.pictureBox6.Size = new System.Drawing.Size(262, 127);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 15;
             this.pictureBox6.TabStop = false;
             // 
