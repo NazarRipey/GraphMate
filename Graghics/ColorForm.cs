@@ -187,10 +187,5 @@ namespace Graghics
             HelpColorModel hcm = new HelpColorModel();
             hcm.ShowDialog();
         }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
     }
 }

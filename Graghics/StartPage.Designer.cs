@@ -73,7 +73,6 @@
             // FigureMoveBtn
             // 
             this.FigureMoveBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.FigureMoveBtn.Enabled = false;
             this.FigureMoveBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
             this.FigureMoveBtn.FlatAppearance.BorderSize = 0;
             this.FigureMoveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

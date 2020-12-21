@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace Graghics
@@ -34,7 +33,10 @@ namespace Graghics
 
         private void FigureMoveBtn_Click(object sender, EventArgs e)
         {
+            AfinnisForm afinnisForm = new AfinnisForm(this);
+            afinnisForm.Show();
 
+            this.Hide();
         }
 
         private void ReferenceBtn_Click(object sender, EventArgs e)
