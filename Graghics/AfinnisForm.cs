@@ -45,9 +45,9 @@ namespace Graghics
                     0, 0, 1
                });
 
-        TransformationMatrix scale2 = new TransformationMatrix(new double[] { 1, 0, 0,
-                                                                              0, -1, 0,
-                                                                              0, 0, 0 });
+        TransformationMatrix mirror = new TransformationMatrix(new double[] { 0, 1, 0,
+                                                                              1, 0, 0,
+                                                                              0, 0, 1});
 
         private void transformButton_Click(object sender, EventArgs e)
         {
@@ -67,12 +67,11 @@ namespace Graghics
                                                                                      0, 1, 0,
                                                                            movePerStep, 0, 1 });
             var option = rotate1 * translate * scale * rotate2;
-            var option2 = rotate1 * scale2 * rotate2;
 
             for (int i = 0; i < numberOfSteps.Value; ++i)
             {
                 coordinates *= option;
-                coordinates2 = coordinates * option2;
+                coordinates2 = coordinates * mirror;
 
                 coordinates.ReturnPoints(FirstTriangle.Points);
                 coordinates2.ReturnPoints(SecondTriangle.Points);
@@ -108,16 +107,11 @@ namespace Graghics
 
             if (tempTriangle.Points != null)
             {
-                //Відносно y = x
-                TransformationMatrix scale = new TransformationMatrix(new double[] { 0, 1, 0,
-                                                                                     1, 0, 0,
-                                                                                     0, 0, 1 });
-
                 FirstTriangle = tempTriangle;
                 SecondTriangle = new Triangle(FirstTriangle);
 
                 TransformationMatrix coordinates = new TransformationMatrix(SecondTriangle.Points);
-                coordinates *= scale;
+                coordinates *= mirror;
                 coordinates.ReturnPoints(SecondTriangle.Points);
 
                 drawGrid();

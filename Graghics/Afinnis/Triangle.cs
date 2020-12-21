@@ -63,17 +63,6 @@ namespace Graghics.Afinnis
             result.ReturnPoints(this.Points);
         }
 
-        /*public bool IsValid()
-        {
-            float P(int i, int j)
-            {
-                return Points[i - 1].X * Points[j - 1].Y;
-            }
-
-            return P(1, 4) + P(2, 1) + P(2, 3) + 2 * P(4, 2) + P(3, 4) ==
-                   P(1, 2) + 2 * P(2, 4) + P(4, 1) + P(4, 3) + P(3, 2);
-        }*/
-
         public static bool IsValid(PointF A, PointF B, PointF C)
         {
             double a, b, c;

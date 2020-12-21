@@ -21,7 +21,6 @@ namespace Graghics.Afinnis
             Pen axesPen = new Pen(Color.Black);
             Pen gridPen = new Pen(Color.LightGray);
 
-            int xMax, yMax;
             int xStart = 3, yStart = 3;
             int xRepeat = 5, yRepeat = 5;
 
@@ -46,7 +45,7 @@ namespace Graghics.Afinnis
             {
                 g.DrawString(i.ToString(), font, new SolidBrush(Color.Black), tmpOffset, 0);
             }
-            for(int i = xStart, tmpOffset = -xOffset; tmpOffset > -_canvas.Width; i+= xRepeat, tmpOffset -= xRepeat * _intervalStep)
+            for (int i = xStart, tmpOffset = -xOffset; tmpOffset > -_canvas.Width; i += xRepeat, tmpOffset -= xRepeat * _intervalStep)
             {
                 g.DrawString((-i).ToString(), font, new SolidBrush(Color.Black), tmpOffset, 0);
             }
