@@ -104,7 +104,7 @@
             this.valueBar.Location = new System.Drawing.Point(887, 642);
             this.valueBar.Maximum = 100;
             this.valueBar.Name = "valueBar";
-            this.valueBar.Size = new System.Drawing.Size(226, 56);
+            this.valueBar.Size = new System.Drawing.Size(226, 45);
             this.valueBar.TabIndex = 6;
             this.valueBar.Scroll += new System.EventHandler(this.ValueBar_Scroll);
             // 
@@ -117,7 +117,7 @@
             this.R.Location = new System.Drawing.Point(38, 18);
             this.R.Name = "R";
             this.R.ReadOnly = true;
-            this.R.Size = new System.Drawing.Size(48, 32);
+            this.R.Size = new System.Drawing.Size(48, 27);
             this.R.TabIndex = 10;
             this.R.Text = "0";
             this.R.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -131,7 +131,7 @@
             this.H.Location = new System.Drawing.Point(38, 71);
             this.H.Name = "H";
             this.H.ReadOnly = true;
-            this.H.Size = new System.Drawing.Size(48, 32);
+            this.H.Size = new System.Drawing.Size(48, 27);
             this.H.TabIndex = 11;
             this.H.Text = "0";
             this.H.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -145,7 +145,7 @@
             this.G.Location = new System.Drawing.Point(140, 18);
             this.G.Name = "G";
             this.G.ReadOnly = true;
-            this.G.Size = new System.Drawing.Size(48, 32);
+            this.G.Size = new System.Drawing.Size(48, 27);
             this.G.TabIndex = 12;
             this.G.Text = "0";
             this.G.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -159,7 +159,7 @@
             this.S.Location = new System.Drawing.Point(140, 71);
             this.S.Name = "S";
             this.S.ReadOnly = true;
-            this.S.Size = new System.Drawing.Size(48, 32);
+            this.S.Size = new System.Drawing.Size(48, 27);
             this.S.TabIndex = 13;
             this.S.Text = "0";
             this.S.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -173,7 +173,7 @@
             this.B.Location = new System.Drawing.Point(243, 18);
             this.B.Name = "B";
             this.B.ReadOnly = true;
-            this.B.Size = new System.Drawing.Size(48, 32);
+            this.B.Size = new System.Drawing.Size(48, 27);
             this.B.TabIndex = 14;
             this.B.Text = "0";
             this.B.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -187,7 +187,7 @@
             this.V.Location = new System.Drawing.Point(243, 71);
             this.V.Name = "V";
             this.V.ReadOnly = true;
-            this.V.Size = new System.Drawing.Size(48, 32);
+            this.V.Size = new System.Drawing.Size(48, 27);
             this.V.TabIndex = 15;
             this.V.Text = "0";
             this.V.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -199,7 +199,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(3, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 25);
+            this.label1.Size = new System.Drawing.Size(25, 20);
             this.label1.TabIndex = 16;
             this.label1.Text = "R:";
             // 
@@ -210,7 +210,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Window;
             this.label2.Location = new System.Drawing.Point(204, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 25);
+            this.label2.Size = new System.Drawing.Size(24, 20);
             this.label2.TabIndex = 17;
             this.label2.Text = "V:";
             // 
@@ -221,7 +221,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.Window;
             this.label3.Location = new System.Drawing.Point(102, 71);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 25);
+            this.label3.Size = new System.Drawing.Size(24, 20);
             this.label3.TabIndex = 18;
             this.label3.Text = "S:";
             // 
@@ -232,7 +232,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.Window;
             this.label4.Location = new System.Drawing.Point(0, 74);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 25);
+            this.label4.Size = new System.Drawing.Size(25, 20);
             this.label4.TabIndex = 19;
             this.label4.Text = "H:";
             // 
@@ -243,7 +243,7 @@
             this.label5.ForeColor = System.Drawing.SystemColors.Window;
             this.label5.Location = new System.Drawing.Point(205, 21);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 25);
+            this.label5.Size = new System.Drawing.Size(24, 20);
             this.label5.TabIndex = 20;
             this.label5.Text = "B:";
             // 
@@ -254,7 +254,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.Window;
             this.label6.Location = new System.Drawing.Point(102, 21);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(33, 25);
+            this.label6.Size = new System.Drawing.Size(26, 20);
             this.label6.TabIndex = 21;
             this.label6.Text = "G:";
             // 
@@ -294,7 +294,7 @@
             this.ValueBox.Location = new System.Drawing.Point(1119, 642);
             this.ValueBox.Name = "ValueBox";
             this.ValueBox.ReadOnly = true;
-            this.ValueBox.Size = new System.Drawing.Size(48, 32);
+            this.ValueBox.Size = new System.Drawing.Size(48, 27);
             this.ValueBox.TabIndex = 27;
             this.ValueBox.Text = "0";
             this.ValueBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -306,7 +306,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.Window;
             this.label7.Location = new System.Drawing.Point(780, 642);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(127, 29);
+            this.label7.Size = new System.Drawing.Size(100, 24);
             this.label7.TabIndex = 28;
             this.label7.Text = "Red value:";
             // 
@@ -320,7 +320,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1289, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1289, 24);
             this.menuStrip1.TabIndex = 29;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -329,7 +329,7 @@
             // 
             this.backToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.backToolStripMenuItem.Name = "backToolStripMenuItem";
-            this.backToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.backToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.backToolStripMenuItem.Text = "< Back";
             this.backToolStripMenuItem.Click += new System.EventHandler(this.backToolStripMenuItem_Click);
             // 
@@ -341,13 +341,13 @@
             this.fileToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(45, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(126, 26);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click_1);
             // 
@@ -355,7 +355,7 @@
             // 
             this.saveToolStripMenuItem.Enabled = false;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(126, 26);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -366,7 +366,7 @@
             this.label8.ForeColor = System.Drawing.SystemColors.Window;
             this.label8.Location = new System.Drawing.Point(944, 37);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(72, 31);
+            this.label8.Size = new System.Drawing.Size(58, 26);
             this.label8.TabIndex = 30;
             this.label8.Text = "After";
             // 
@@ -377,7 +377,7 @@
             this.label9.ForeColor = System.Drawing.SystemColors.Window;
             this.label9.Location = new System.Drawing.Point(280, 37);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(94, 31);
+            this.label9.Size = new System.Drawing.Size(76, 26);
             this.label9.TabIndex = 31;
             this.label9.Text = "Before";
             // 
@@ -388,7 +388,7 @@
             this.label10.ForeColor = System.Drawing.SystemColors.Window;
             this.label10.Location = new System.Drawing.Point(736, 591);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(174, 29);
+            this.label10.Size = new System.Drawing.Size(135, 24);
             this.label10.TabIndex = 34;
             this.label10.Text = "Red saturation:";
             // 
@@ -401,7 +401,7 @@
             this.SaturationBox.Location = new System.Drawing.Point(1119, 591);
             this.SaturationBox.Name = "SaturationBox";
             this.SaturationBox.ReadOnly = true;
-            this.SaturationBox.Size = new System.Drawing.Size(48, 32);
+            this.SaturationBox.Size = new System.Drawing.Size(48, 27);
             this.SaturationBox.TabIndex = 33;
             this.SaturationBox.Text = "0";
             this.SaturationBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -412,7 +412,7 @@
             this.saturationBar.Location = new System.Drawing.Point(887, 591);
             this.saturationBar.Maximum = 100;
             this.saturationBar.Name = "saturationBar";
-            this.saturationBar.Size = new System.Drawing.Size(226, 56);
+            this.saturationBar.Size = new System.Drawing.Size(226, 45);
             this.saturationBar.TabIndex = 32;
             this.saturationBar.Scroll += new System.EventHandler(this.saturationBar_Scroll);
             // 
@@ -454,10 +454,10 @@
             // 
             // getHelpBtn
             // 
-            this.getHelpBtn.Location = new System.Drawing.Point(1256, 0);
+            this.getHelpBtn.Location = new System.Drawing.Point(1247, 0);
             this.getHelpBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.getHelpBtn.Name = "getHelpBtn";
-            this.getHelpBtn.Size = new System.Drawing.Size(33, 28);
+            this.getHelpBtn.Size = new System.Drawing.Size(30, 24);
             this.getHelpBtn.TabIndex = 36;
             this.getHelpBtn.Text = "?";
             this.getHelpBtn.UseVisualStyleBackColor = true;
@@ -465,7 +465,7 @@
             // 
             // ColorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(100)))));
             this.ClientSize = new System.Drawing.Size(1289, 728);
