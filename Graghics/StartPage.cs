@@ -33,7 +33,7 @@ namespace Graghics
 
         private void FigureMoveBtn_Click(object sender, EventArgs e)
         {
-            AfinnisForm afinnisForm = new AfinnisForm(this);
+            AffineForm afinnisForm = new AffineForm(this);
             afinnisForm.Show();
 
             this.Hide();

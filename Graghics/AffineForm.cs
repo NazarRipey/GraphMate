@@ -6,13 +6,13 @@ using System.Windows.Forms;
 
 namespace Graghics
 {
-    public partial class AfinnisForm : Form
+    public partial class AffineForm : Form
     {
         private StartPage startPage;
         AfinnisGraphics graphics;
         static double movePerStep = 0;
 
-        public AfinnisForm(StartPage startPage)
+        public AffineForm(StartPage startPage)
         {
             InitializeComponent();
 
@@ -140,6 +140,12 @@ namespace Graghics
             {
                 canvas.Image.Save(f.FileName);
             }
+        }
+
+        private void getHelpBtn_Click(object sender, EventArgs e)
+        {
+            HelpAffine ha = new HelpAffine();
+            ha.ShowDialog();
         }
 
         private void AfinnisForm_Closed(object sender, FormClosedEventArgs e)

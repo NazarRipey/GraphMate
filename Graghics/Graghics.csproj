@@ -50,11 +50,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AfinnisForm.cs">
+    <Compile Include="AffineForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AfinnisForm.Designer.cs">
-      <DependentUpon>AfinnisForm.cs</DependentUpon>
+    <Compile Include="AffineForm.Designer.cs">
+      <DependentUpon>AffineForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Afinnis\AfinnisGraphics.cs" />
     <Compile Include="Afinnis\TransformationMatrix.cs" />
@@ -66,6 +66,12 @@
       <DependentUpon>ColorForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ColorModelConvertor.cs" />
+    <Compile Include="HelpAffine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpAffine.Designer.cs">
+      <DependentUpon>HelpAffine.cs</DependentUpon>
+    </Compile>
     <Compile Include="HelpColorModel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,11 +111,14 @@
     <Compile Include="TriangleForm.Designer.cs">
       <DependentUpon>TriangleForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AfinnisForm.resx">
-      <DependentUpon>AfinnisForm.cs</DependentUpon>
+    <EmbeddedResource Include="AffineForm.resx">
+      <DependentUpon>AffineForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ColorForm.resx">
       <DependentUpon>ColorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpAffine.resx">
+      <DependentUpon>HelpAffine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HelpColorModel.resx">
       <DependentUpon>HelpColorModel.cs</DependentUpon>
